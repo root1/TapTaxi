@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+     <color name="transparent">#00000000</color>
+    <!-- card colors -->
+    <color name="card_background">#ffffff</color>
+    <color name="list_divider">#eeeeee</color>
+    <color name="stroke">#dddddd</color>
+    <color name="card_shadow_1">#d4d4d4</color>
+    <color name="card_shadow_2">#dddddd</color>
+    <color name="card_detailing">#eee</color>
+    <color name="list_item_title">#808080</color>
+    <color name="list_background">#fff</color>
+    <color name="list_background_pressed">#eeeeee</color>
+    <color name="gray">#dddddd</color>
+    <color name="counter_text_bg">#626262</color>
+    <color name="counter_text_color">#c5c4c4</color>
+    <color name="golden">#f2a400</color>
+    <color name="background_window">#FFE5E5E5</color>
+    <color name="orange">#ffffdc7e</color>
+    <color name="grey">#ffd3d3d3</color>
+    <color name="label_background">#eeeeee</color>
+    <color name="green">#ff8dd304</color>
+    <color name="blue">#ff82e0ff</color>
+    <color name="yellow">#fffffbae</color>
+    <color name="red">#fff10800</color>
+    <color name="budget">#dddddd</color>
+    <color name="heading">#748269</color>
+    <color name="list_item_pressed">#1A000000</color>
+    
+    <color name="primary" type="color">#ff259b24</color>
+    <color name="primarydark" type="color">#ff0a7e07</color>
+    <color name="primarytext" type="color">#de000000</color>
+    <color name="secondarytext" type="color">#8a000000</color>
+    <color name="ondarktext" type="color">#fffafafa</color>
+    <color name="primarybackground" type="color">#fffafafa</color>
+    <color name="secondarybackground" type="color">#ffeeeeee</color>
+    <color name="darkbackground" type="color">#ff323232</color>
+    <color name="divider">#1f000000</color>
+    
+</resources>

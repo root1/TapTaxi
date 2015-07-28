@@ -1,0 +1,298 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:background="@drawable/cardgist"
+            android:padding="10dp"
+            tools:context=".MainActivity">
+
+            <ImageView
+                android:id="@+id/image"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:src="@drawable/distance_5k" />
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_toRightOf="@+id/image"
+                android:orientation="vertical"
+                android:paddingLeft="10dp">
+
+                <TextView
+                    android:id="@+id/time"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:ellipsize="end"
+                    android:maxLines="1"
+                    android:text="12:45" />
+
+                <TextView
+                    android:id="@+id/name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_toLeftOf="@+id/time"
+                    android:ellipsize="end"
+                    android:maxLines="1"
+                    android:text="Hopewell Mutanda" />
+
+                <TextView
+                    android:id="@+id/locations"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/name"
+                    android:ellipsize="end"
+                    android:maxLines="1"
+                    android:paddingTop="5dp"
+                    android:text="Park Street - 5 Avenue" />
+            </RelativeLayout>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:background="@drawable/cardgist"
+            android:padding="10dp">
+
+            <TextView
+                android:id="@+id/driver_location"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ellipsize="end"
+                android:maxLines="1"
+                android:paddingBottom="10dp"
+                android:paddingTop="10dp" />
+
+            <View
+                android:id="@+id/linebreak"
+                android:layout_width="match_parent"
+                android:layout_height="0.1dp"
+                android:layout_below="@+id/driver_location"
+                android:background="@color/card_shadow_1"
+                android:paddingTop="10dp" />
+
+            <TextView
+                android:id="@+id/user_location"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/linebreak"
+                android:ellipsize="end"
+                android:maxLines="1"
+                android:paddingTop="10dp" />
+
+            <TextView
+                android:id="@+id/time_to_user"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/user_location"
+                android:ellipsize="end"
+                android:maxLines="1"
+                android:paddingTop="10dp" />
+
+            <TextView
+                android:id="@+id/distance"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_below="@+id/user_location"
+                android:ellipsize="end"
+                android:maxLines="1"
+                android:paddingTop="10dp" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:background="@drawable/cardgist"
+            android:padding="10dp">
+
+            <TextView
+                android:id="@+id/user_location2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ellipsize="end"
+                android:maxLines="1"
+                android:paddingBottom="10dp"
+                android:paddingTop="10dp" />
+
+            <View
+                android:id="@+id/linebreak2"
+                android:layout_width="match_parent"
+                android:layout_height="0.1dp"
+                android:layout_below="@+id/user_location2"
+                android:background="@color/card_shadow_1"
+                android:paddingTop="10dp" />
+
+            <TextView
+                android:id="@+id/driver_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/linebreak2"
+                android:ellipsize="end"
+                android:maxLines="1"
+                android:paddingTop="10dp" />
+
+            <TextView
+                android:id="@+id/time_to_destination"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/driver_name"
+                android:ellipsize="end"
+                android:maxLines="1"
+                android:paddingTop="10dp" />
+
+            <TextView
+                android:id="@+id/distance2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_below="@+id/driver_name"
+                android:ellipsize="end"
+                android:maxLines="1"
+                android:paddingTop="10dp" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:background="@drawable/cardgist">
+
+            <RelativeLayout
+                android:id="@+id/header"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/primary">
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="10dp"
+                    android:background="#fff"
+                    android:text="ACCEPT"
+                    android:textColor="@color/primary"
+                    android:id="@+id/accept" />
+                <TextView
+                    android:id="@+id/start"
+                    android:layout_toLeftOf="@+id/accept"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="10dp"
+                    android:layout_alignParentLeft="true"
+                    android:text="Start from Park Street"
+                    android:textColor="#fff" />
+
+                <TextView
+                    android:id="@+id/end"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/start"
+                    android:padding="10dp"
+                    android:text="To Glenview"
+                    android:textColor="#fff" />
+
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/header">
+
+                <ImageView
+                    android:id="@+id/image_car"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:padding="10dp"
+                    android:src="@drawable/ic_directions_car_grey" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toRightOf="@+id/image_car"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/start_from"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="10dp" />
+
+                    <TextView
+                        android:id="@+id/going_to"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="10dp" />
+                </LinearLayout>
+            </RelativeLayout>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:background="@drawable/cardgist"
+            android:padding="10dp">
+
+            <TextView
+                android:id="@+id/contact"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ellipsize="end"
+                android:maxLines="1"
+                android:paddingBottom="10dp"
+                android:paddingTop="10dp"
+                android:text="Contact" />
+
+            <View
+                android:id="@+id/linebreak3"
+                android:layout_width="match_parent"
+                android:layout_height="0.1dp"
+                android:layout_below="@+id/contact"
+                android:background="@color/card_shadow_1"
+                android:paddingTop="10dp" />
+
+            <TextView
+                android:id="@+id/phone1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/linebreak3"
+                android:ellipsize="end"
+                android:maxLines="1"
+                android:paddingTop="10dp"
+                android:text="Phone 1: 0772 673 374" />
+
+            <TextView
+                android:id="@+id/phone2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/phone1"
+                android:ellipsize="end"
+                android:maxLines="1"
+                android:paddingTop="10dp"
+                android:text="Phone 2: 0772 673 374" />
+
+        </RelativeLayout>
+    </LinearLayout>
+
+</ScrollView>

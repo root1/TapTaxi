@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<taptaxi.taptaxi.HeaderGridView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/gridView1"
+    android:numColumns="2"
+    android:background="#fff"
+    android:gravity="center"
+    android:horizontalSpacing="0.1dp"
+    android:verticalSpacing="0.1dp"
+    android:stretchMode="columnWidth"
+    android:listSelector="@android:color/transparent"
+    android:layout_marginLeft="-1px"
+    android:layout_marginRight="-1px"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+</taptaxi.taptaxi.HeaderGridView>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="@drawable/list_selector"
+    android:layout_height="match_parent"
+    android:padding="15dp" >
+ 
+    <ImageView
+        android:id="@+id/grid_item_image"
+        android:layout_width="90dp"
+        android:layout_centerHorizontal="true"
+        android:layout_height="90dp"
+        android:src="@drawable/ic_launcher" >
+    </ImageView>
+ 
+    <TextView
+        android:id="@+id/grid_item_label"
+        android:layout_below="@+id/grid_item_image"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Recent Requests"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="5dp"
+        android:textSize="18sp" >
+    </TextView>
+ 
+</RelativeLayout>
