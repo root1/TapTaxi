@@ -163,7 +163,7 @@ public class MainActivity extends ActionBarActivity {
         setContentView(R.layout.activity_main);
         mListView = (ListView) findViewById(R.id.ListView01);
         mProgress = (ProgressBar) findViewById(R.id.progressBar);
-        mDataList = new ArrayList<Transactions>();
+        mDataList = new ArrayList<>();
         mVolleyQueue = Volley.newRequestQueue(this);
         callJsonArrayRequest();
         mAdapter = new EfficientAdapter(this);
@@ -175,6 +175,7 @@ public class MainActivity extends ActionBarActivity {
         JobInfo job = new JobInfo.Builder(0 /*jobid*/, new ComponentName(getApplicationContext(), DriverUpdateService.class))
                 .setRequiredNetworkType(JobInfo.NETWORK_TYPE_ANY)
                 .setPeriodic(10000)
+                .setPersisted(true)
                 .setExtras(extras)
                 .build();
         jobScheduler.schedule(job);
