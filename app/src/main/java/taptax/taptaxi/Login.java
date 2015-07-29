@@ -184,7 +184,7 @@ public class Login extends ActionBarActivity {
                            startActivity(new Intent(getApplicationContext(), MainActivity.class));
                         }
                         if(user_type.equals(Constants.USERTYPEREGULAR)){
-                            startActivity(new Intent(getApplicationContext(), RecentRequests.class));
+                            startActivity(new Intent(getApplicationContext(), Home.class));
                         }
 
                         finish();

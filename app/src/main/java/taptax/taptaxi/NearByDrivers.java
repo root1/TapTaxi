@@ -196,29 +196,7 @@ public class NearByDrivers extends ActionBarActivity {
             }
         };
     }
-    @Override
-    public boolean onCreateOptionsMenu(Menu menu) {
 
-        getMenuInflater().inflate(R.menu.menu_client, menu);
-        return true;
-    }
-
-    @Override
-    public boolean onOptionsItemSelected(MenuItem item) {
-
-        int id = item.getItemId();
-
-        if (id == R.id.action_new) {
-            startActivity(new Intent(NearByDrivers.this, RequestCab.class));
-        }
-        if (id == R.id.action_refresh) {
-            mDataList.clear();
-            callJsonArrayRequest();
-
-        }
-
-        return super.onOptionsItemSelected(item);
-    }
 
     public void onDestroy() {
         super.onDestroy();

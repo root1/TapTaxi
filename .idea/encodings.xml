@@ -8,6 +8,10 @@
     <file url="file://$PROJECT_DIR$/app/src/main/res/drawable-hdpi/help_button_text_color.xml" charset="windows-1252" />
     <file url="file://$PROJECT_DIR$/app/src/main/res/drawable-hdpi/ic_launcher.png" charset="windows-1252" />
     <file url="file://$PROJECT_DIR$/app/src/main/res/drawable-hdpi/rounded_corners_white.xml" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/drawable-mdpi/bigbang.jpg" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/drawable-mdpi/game_of_thrones.jpg" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/drawable-mdpi/hannibal.jpg" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/drawable-mdpi/house.jpg" charset="windows-1252" />
     <file url="file://$PROJECT_DIR$/app/src/main/res/layout/user_details.xml" charset="windows-1252" />
     <file url="PROJECT" charset="UTF-8" />
   </component>

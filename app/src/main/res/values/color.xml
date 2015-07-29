@@ -2,6 +2,8 @@
 <resources>
      <color name="transparent">#00000000</color>
     <!-- card colors -->
+
+    <color name="div_color">#ddd</color>
     <color name="card_background">#ffffff</color>
     <color name="list_divider">#eeeeee</color>
     <color name="stroke">#dddddd</color>
