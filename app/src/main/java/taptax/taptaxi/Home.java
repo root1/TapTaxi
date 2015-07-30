@@ -52,10 +52,10 @@ public class Home extends Activity implements BaseSliderView.OnSliderClickListen
 		url_maps.put("Game of Thrones", "http://images.boomsbeat.com/data/images/full/19640/game-of-thrones-season-4-jpg.jpg");
 
 		HashMap<String,Integer> file_maps = new HashMap<String, Integer>();
-		file_maps.put("Hannibal",R.drawable.hannibal);
-		file_maps.put("Big Bang Theory", R.drawable.bigbang);
-		file_maps.put("House of Cards", R.drawable.house);
-		file_maps.put("Game of Thrones", R.drawable.game_of_thrones);
+		file_maps.put("Banc ABC",R.drawable.bancabc);
+		file_maps.put("Old Mutual", R.drawable.oldmutual);
+		file_maps.put("Ecocash", R.drawable.eco);
+		file_maps.put("Telecash", R.drawable.telecash);
 
 		for(String name : file_maps.keySet()) {
 			TextSliderView textSliderView = new TextSliderView(this);
